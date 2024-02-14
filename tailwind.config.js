@@ -27,10 +27,18 @@ module.exports = {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        
+
+        gray: "hsl(var(--gray))",
+        'dark-gary': "hsl(var(--dark-gray))",
+        'light-gary': "hsl(var(--light-gray))",
+
+
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
