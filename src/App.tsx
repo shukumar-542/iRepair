@@ -1,10 +1,8 @@
+import MainLayouts from "./layouts/MainLayouts"
+
 function App() {
 
-  return (
-    <>
-     <div className="text-red-400">This is iRepair service</div>
-    </>
-  )
+  return <MainLayouts />
 }
 
 export default App
