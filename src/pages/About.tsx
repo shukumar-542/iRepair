@@ -2,7 +2,7 @@ import Container from "@/components/ui/Container";
 import macbook1 from "@/assets/images/macbook 1.png"
 const About = () => {
     return (
-        <Container className="grid grid-cols-1 lg:grid-cols-2  items-center">
+        <Container className="grid grid-cols-1 lg:grid-cols-2  items-center mb-10">
             <div>
                 <img src={macbook1} alt="" />
             </div>
