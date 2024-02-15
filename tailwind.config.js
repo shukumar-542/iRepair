@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        'cats': 'url(./../src/assets/images/chip 1.png)',
+        'hero' : 'url(./../src/assets/images/BG.png)',
+      },
+      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -30,8 +35,9 @@ module.exports = {
         
 
         gray: "hsl(var(--gray))",
-        'dark-gary': "hsl(var(--dark-gray))",
-        'light-gary': "hsl(var(--light-gray))",
+        yellow : "hsl(var(--yellow))",   
+        'dark-gray' : "hsl(var(--dark-gray))",
+        'light-gray' : "hsl(var(--light-gray))",
 
 
         secondary: {
