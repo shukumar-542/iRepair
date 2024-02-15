@@ -13,11 +13,14 @@ const Services = () => {
                     Feel free to find out more below.</p>
             </div>
             <div className='grid grid-cols-12 gap-5 my-10'>
-                <BatteryReplacement></BatteryReplacement>
+                <BatteryReplacement
+               
+                ></BatteryReplacement>
                 <ChipReplacement></ChipReplacement>
                 <DataRecovery></DataRecovery>
-                <div className="h-[200px] bg-red-500 rounded-md col-span-12" ></div>
-                <div className="h-[200px] bg-red-500 rounded-md col-span-12 lg:col-span-4" ></div>
+                <BatteryReplacement></BatteryReplacement>
+                {/* <div className="h-[200px] bg-gray rounded-md col-span-12" ></div> */}
+                <div className="h-[200px] bg-gray rounded-md col-span-12 lg:col-span-4" ></div>
                 <div className="h-[200px] bg-red-500 rounded-md col-span-12 lg:col-span-4" ></div>
                 <div className="h-[200px] bg-red-500 rounded-md col-span-12 lg:col-span-4" ></div>
                 
